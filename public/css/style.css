@@ -1,0 +1,54 @@
+
+    body{
+        font-family:Verdana,Arial,Helvetica,sans-serif;
+        font-size:100%;
+        width:400px;
+        height: 1000px;
+        background-color:white;
+        margin: 15px auto;
+        padding:15px 15px 15px 15px;
+        
+      }
+
+      form{
+        width:300px;
+        height: 440px;
+        border:1px solid black;
+        padding:15px 15px 15px 15px;
+      }
+        h1{
+        padding-left:60px;
+        font-size: 140%;
+        }
+
+        #babyVader{
+          margin:-100px 350px 0;
+          position: absolute;
+        }
+        #babyYoda{
+          margin:-120px -90px 0 ;
+          position: absolute;
+        }
+
+        #alert{
+          color: red;
+          }
+        #submit{
+            margin-right:120px;
+            margin-top: -10px;
+            
+        }
+        input{
+            float:right;
+        }
+
+        #state{
+          float:right;
+          width: 170px;
+        }
+        #footer{
+          font-size: 12px;
+          position:absolute;
+        }
+
+

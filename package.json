@@ -1,0 +1,17 @@
+{
+  "name": "3_assignment",
+  "version": "1.0.0",
+  "description": "Carlos Barros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Barros",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.10.0",
+    "mongoose": "^5.12.4"
+  }
+}

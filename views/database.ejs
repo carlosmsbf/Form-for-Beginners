@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 4</title>
+        <link rel="stylesheet" type="text/css" href="/css/sstyleTable.css">
+    </head>
+    <body>
+        <h1>Table</h1>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th id = "hdr_name">Name</th>
+                    <th id = "hdr_email">Email</th>
+                    <th id = "hdr_phone">Phone</th>
+                    <th id = "hdr_city">City</th>
+                    <th id = "hdr_zip">Post Code</th>
+                    <th id = "hdr_state">State</th>
+                    <th id = "hdr_productOneQuantity">Mouse</th>
+                    <th id = "hdr_productTwoQuantity">Keyboard</th>
+                    <th id = "hdr_subTotal">SubTotal</th>
+                    <th id = "hdr_stateBillTax">Tax</th>
+                    <th id = "hdr_totalOfBill">Total</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <%
+                    for (doc of database)
+                    {
+                        %>     
+                    
+                        <tr>
+                    <td><%= doc.name %></td>
+                    <td><%= doc.email %></td>
+                    <td><%= doc.phone %></td>
+                    <td><%= doc.address %></td>
+                    <td><%= doc.city %></td>
+                    <td><%= doc.zip %></td>
+                    <td><%= doc.state %></td>
+                    <td><%= doc.productOneQuantity %></td>
+                    <td><%= doc.productTwoQuantity %></td>
+                    <td><%= doc.subTotal %></td>
+                    <td><%= doc.stateBillTax %></td>
+                    <td><%= doc.totalOfBill %></td>
+
+
+                </tr>
+                <%
+                }
+                %>
+            </tbody>
+        </table>
+
+        </form>
+    </body>
+</html>

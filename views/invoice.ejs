@@ -1,0 +1,39 @@
+<%- include('layouts/header') -%>
+<fieldset>
+<p>Name: <%= name %>
+</p>
+<p>Email: <%= email %>
+</p>
+<p>Phone: <%= phone %>
+</p>
+<p>Address: <%= address %>
+</p>
+<p>City: <%= city %>
+</p>
+<p>Zip: <%= zip %>
+</p>
+<p>State: <%= state %>
+</p>
+</fieldset>
+<br>
+<fieldset>
+
+    <fieldset>
+        <legend>Products Quantity</legend>
+        <p>Mouse: <%= productOneQuantity %>
+        </p>
+
+        <p>Keyboard: <%= productTwoQuantity %>
+        </p>
+    </fieldset>
+<p>SubTotal: <%= subTotal %>
+</p>
+
+<p>Tax: <%= stateBillTax %>
+</p>
+
+<p>Total: <%= totalOfBill %>
+</p>
+</fieldset>
+
+<%- include('layouts/footer') -%>
